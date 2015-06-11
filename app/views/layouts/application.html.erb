@@ -35,10 +35,6 @@
 		</nav>
 	</header>
 
-<p class="notice"><%= notice %></p>
-<p class="alert"><%= alert %></p>
-
-
 	<section id="contenido">
 	<article>
 		<%= yield %>
@@ -49,7 +45,9 @@
 				INICIAR SESIÓN
 			</div>
 			<div class="panel-body">
-				<p>NOTICIA O CONTENIDO</p>
+				<p class="notice"><%= notice %></p>
+				<p class="alert"><%= alert %></p>
+
 			</div>
 		</div>
 		<div id="panelAside" class="panel panel-default">
